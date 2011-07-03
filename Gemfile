@@ -1,0 +1,16 @@
+source 'http://rubygems.org'
+RAILS_VERSION = '~> 3.0.8'
+
+gem 'activesupport', RAILS_VERSION, :require => 'active_support'
+gem 'actionpack', RAILS_VERSION, :require => 'action_pack'
+gem 'actionmailer', RAILS_VERSION, :require => 'action_mailer'
+gem 'railties', RAILS_VERSION, :require => 'rails'
+gem 'activerecord', RAILS_VERSION, :require => 'active_record'
+gem 'devise'
+gem 'mysql'
+gem 'paperclip'
+gem 'parseexcel'
+gem 'omniauth', '0.1.6'
+gem 'nifty-generators'
+#gem "fb_graph"
+#gem 'omniauth 0.2.0'
